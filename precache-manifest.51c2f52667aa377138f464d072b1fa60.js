@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/pronounce/static/js/runtime~main.8439b8a9.js"
   },
   {
-    "revision": "c8533f03994fdf9c22c4",
-    "url": "/pronounce/static/js/main.c8533f03.chunk.js"
+    "revision": "d8e3769c1fa10e6c53ff",
+    "url": "/pronounce/static/js/main.d8e3769c.chunk.js"
   },
   {
     "revision": "a75555b9cef7af214e53",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/pronounce/static/css/1.9d82ed0a.chunk.css"
   },
   {
-    "revision": "3b3b71298b655e07c80db94938079968",
+    "revision": "740c06e17d601319181e57b2a66872e3",
     "url": "/pronounce/index.html"
   }
 ];
