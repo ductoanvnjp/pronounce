@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/pronounce/static/css/1.9d82ed0a.chunk.css"
   },
   {
-    "revision": "20b62a07fb8cceb8bd394e3fd225ebb6",
+    "revision": "3f3eb3242ac14e3f6834efe85be9243e",
     "url": "/pronounce/index.html"
   }
 ];
