@@ -1,6 +1,6 @@
 {
-  "main.js": "/pronounce/static/js/main.e22a7e43.chunk.js",
-  "main.js.map": "/pronounce/static/js/main.e22a7e43.chunk.js.map",
+  "main.js": "/pronounce/static/js/main.fe0e8fb8.chunk.js",
+  "main.js.map": "/pronounce/static/js/main.fe0e8fb8.chunk.js.map",
   "static/css/1.9d82ed0a.chunk.css": "/pronounce/static/css/1.9d82ed0a.chunk.css",
   "static/js/1.a75555b9.chunk.js": "/pronounce/static/js/1.a75555b9.chunk.js",
   "static/js/1.a75555b9.chunk.js.map": "/pronounce/static/js/1.a75555b9.chunk.js.map",
@@ -8,6 +8,6 @@
   "runtime~main.js.map": "/pronounce/static/js/runtime~main.8439b8a9.js.map",
   "static/css/1.9d82ed0a.chunk.css.map": "/pronounce/static/css/1.9d82ed0a.chunk.css.map",
   "index.html": "/pronounce/index.html",
-  "precache-manifest.8535d38d2d5f6458b6bcfaaf1ad33def.js": "/pronounce/precache-manifest.8535d38d2d5f6458b6bcfaaf1ad33def.js",
+  "precache-manifest.552d07bcd3ba927de99b56976630a3a3.js": "/pronounce/precache-manifest.552d07bcd3ba927de99b56976630a3a3.js",
   "service-worker.js": "/pronounce/service-worker.js"
 }
