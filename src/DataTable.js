@@ -1,11 +1,11 @@
-import {DebounceInput} from 'react-debounce-input';
+import {DebounceInput} from 'react-debounce-input'
 import ECELL from './ECELL.js'
 import React, { Component } from 'react';
 import {Table, Column, Cell} from 'fixed-data-table-2';
 import 'fixed-data-table-2/dist/fixed-data-table.css';
 
 const data = [
-    {unit:5,title:'Farm Poem',track:45,en:'Farm poem',vn:'Bài thơ về trang trại'},
+   /*  {unit:5,title:'Farm Poem',track:45,en:'Farm Poem',vn:'Bài Thơ Trang Trại'},
     {unit:5,title:'Farm Poem',track:45,en:'Hello to the farmer',vn:'Xin chào một người nông dân'},
     {unit:5,title:'Farm Poem',track:45,en:'Hello to the tractor',vn:'Xin chào một chiếc máy kéo'},
     {unit:5,title:'Farm Poem',track:45,en:'Hello to the cows in their stall ',vn:'Xin chào những con bò đang ở trong chuồng của chúng'},
@@ -29,7 +29,7 @@ const data = [
 
     {unit:5,title:'Farm Poem',track:47,en:'Are you planting rice?',vn:'Bạn đang trồng lúa à?'},
     {unit:5,title:'Farm Poem',track:47,en:'Yes, I am.',vn:'Vâng, đúng rồi.'},
-    {unit:5,title:'Farm Poem',track:47,en:'No, I am not.',vn:'Không, không phải.'},
+    {unit:5,title:'Farm Poem',track:47,en:'No, I\'m not.',vn:'Không, không phải.'},
 
     {unit:5,title:'The life cycle of a hen',track:48,en:'The life cycle of a hen',vn:'Vòng đời của một con gà mái'},
     {unit:5,title:'The life cycle of a hen',track:48,en:'A tiny chick grows inside an egg',vn:'Một con gà nhỏ phát triển bên trong một quả trứng'},
@@ -64,12 +64,12 @@ const data = [
     {unit:5,title:'Fix-it Fish',track:51,en:'Thank you, Fix-it Fish!',vn:'Cám ơn bạn. Cá sửa chữa!'},
     {unit:5,title:'Fix-it Fish',track:51,en:'You are welcome',vn:'Không có gì'},
 
-    {unit:5,title:'Growing vegetables',track:0,en:'Above the ground: tomatoes, peppers, beans',vn:''},
-    {unit:5,title:'Growing vegetables',track:0,en:'Under the ground: carrots, onions, potatoes',vn:''},
+    {unit:5,title:'Growing vegetables',track:0,en:'Above the ground: tomatoes, peppers, beans',vn:'Trên mặt đất: quả cà chua, quả ớt, quả đỗ'},
+    {unit:5,title:'Growing vegetables',track:0,en:'Under the ground: carrots, onions, potatoes',vn:'Dưới lòng đất: củ cà rốt, củ hành, củ khoai tây'},
     {unit:5,title:'Growing vegetables',track:0,en:'Are the carrots growing under the ground?',vn:'Cà rốt mọc dưới mặt đất phải không?'},
     {unit:5,title:'Growing vegetables',track:0,en:'Yes, they are',vn:'Vâng, đúng rồi.'},
     {unit:5,title:'Growing vegetables',track:0,en:'Is the girl picking a pepper?',vn:'Có phải cô gái đang hái một quả ớt?'},
-    {unit:5,title:'Growing vegetables',track:0,en:'No, she isnt',vn:'Không, không phải'},
+    {unit:5,title:'Growing vegetables',track:0,en:'No, she isn\'t',vn:'Không, không phải'},
 
     {unit:5,title:'Little Red Hen',track:53,en:'I am making bread today',vn:'Hôm nay tôi sẽ làm bánh'},
     {unit:5,title:'Little Red Hen',track:53,en:'Hello, Duck. Hello, Chick. Can you please help me pick the wheat?',vn:'Xin chào vịt. Xin chào gà con. Các bạn có thể giúp tôi hái lúa mì được không?'},
@@ -101,6 +101,37 @@ const data = [
     {unit:0,title:'Play Ball',track:0,en:'A golf ball',vn:'Một quả bóng gôn'},
     {unit:0,title:'Play Ball',track:0,en:'A soccer ball',vn:'Một quả bóng đá'},
     {unit:0,title:'Play Ball',track:0,en:'A volleyball',vn:'Một quả bóng chuyền'},
+    */
+    {unit:1,title:'Five friends',track:0,en:'A man arrives with an elephant.',vn:'Một người đàn ông đến với một con voi'},
+    {unit:1,title:'Five friends',track:0,en:'It\'s the first elephant to visit this land!',vn:'Nó là con voi đầu tiên đến thăm vùng đất này!'},
+    {unit:1,title:'Five friends',track:0,en:'Five blind friends want to meet it.',vn:'Năm người bạn mù muốn gặp nó'},
+    {unit:1,title:'Five friends',track:0,en:'The can\'t see, but they can use their other senses to learn about the world.',vn:'Họ không thể nhìn thấy, nhưng họ có thể sử dụng các giác quan khác để học về thế giới'},
+
+    {unit:0,title:'Five friends',track:0,en:'The five friends go to meet the elephant.',vn:'Năm người bạn đi tới gặp con voi'},
+    {unit:0,title:'Five friends',track:0,en:'Can wee meet your elephant, please?',vn:'Chúng tôi có thể gặp con voi của bạn không?'},
+    {unit:0,title:'Five friends',track:0,en:'Of course. My elephant is tame and gentle.',vn:'Tất nhiên. Con voi của tôi thì thuần hoá và hiền lành'},
+    {unit:0,title:'Five friends',track:0,en:'The first friend feels the elephant\'s long, thin tail',vn:'Người bạn đầu tiên cảm thấy cái đuôi dài và mỏng của con voi'},
+    {unit:0,title:'Five friends',track:0,en:'The elephant feels like a rope',vn:'Con voi này cảm giác giống như một sợi dây'},
+    {unit:0,title:'Five friends',track:0,en:'The second friend feels the elephant\'s side',vn:'Người bạn thứ hai cảm thấy sườn của con voi'},
+    {unit:0,title:'Five friends',track:0,en:'This elephant feels like a wall',vn:'Con voi này cảm giác giống như một bức tường'},
+    {unit:0,title:'Five friends',track:0,en:'The third friend feels the elephant\'s leg',vn:'Người bạn thứ ba cảm thấy cái chân của con voi'},
+    {unit:0,title:'Five friends',track:0,en:'This elephant feels like a big strong tree!',vn:'Con voi này cảm giác giống như một cây to khoẻ'},
+    {unit:0,title:'Five friends',track:0,en:'The fourth friend feels the elephant\'s ear',vn:'Người bạn thứ tư cảm thấy cái tai của con voi'},
+    {unit:0,title:'Five friends',track:0,en:'This elephant feels like a giant fan!',vn:'Con voi này cảm giác giống như một cái quạt khổng lồ'},
+    {unit:0,title:'Five friends',track:0,en:'The fifth friend feels the elephant\'s trunk',vn:'Người bạn thứ năm cảm thấy cái vòi của con voi'},
+    {unit:0,title:'Five friends',track:0,en:'This elephant feels like a long wiggly snake!',vn:'Con voi này cảm giác giống như một con rắn dài ngọ nguậy'},
+    {unit:0,title:'Five friends',track:0,en:'All of you are right, my friends',vn:'Tất cả các bạn đều đúng, các bạn của tôi'},
+    {unit:0,title:'Five friends',track:0,en:'My elephant has many different parts and each part feels different',vn:'Con voi của tôi có nhiều phần khác nhau và mỗi phần cảm thấy khác nhau'},
+    {unit:0,title:'Five friends',track:0,en:'Why don\'t you help me take care of my elephant? ',vn:'Tại sao các bạn không giúp tôi chăm sóc con voi của tôi'},
+    {unit:0,title:'Five friends',track:0,en:'You can get to know the whole elephant better',vn:'Các bạn có thể hiểu rõ hơn về toàn bộ con voi'},
+
+    {unit:0,title:'Five friends',track:0,en:'So the five friends help the man take care of the elephant',vn:'Vì vậy năm người bạn giúp người đàn ông chăm sóc con voi'},
+    {unit:0,title:'Five friends',track:0,en:'They learn many interesting things',vn:'Họ học được nhiều điều thú vị'},
+
+    {unit:0,title:'Five friends',track:0,en:'The elephant smells like a horse',vn:'Con voi có mùi như con ngựa'},
+    {unit:0,title:'Five friends',track:0,en:'The elephant has a loud voice',vn:'Con voi có tiếng kêu lớn'},
+    {unit:0,title:'Five friends',track:0,en:'The elephant likes the taste of apples',vn:'Con voi thích hương vị của táo'},
+    {unit:0,title:'Five friends',track:0,en:'We like this elephant!',vn:'Chúng tôi thích con voi này'},
 ];
 
 function removeAccents(str) {
@@ -225,12 +256,12 @@ export default class DataTable extends Component {
         return (
             <div style={{fontSize:'large'}}>
                 <Table
-                rowHeight={60}
+                rowHeight={85}
                 headerHeight={90}
                 rowsCount={this.state.filteredData.length}
                 //rowsCount={5}
                 width={1135}
-                height={6000}
+                height={8000}
                 {...this.props}
                 >
                 <Column

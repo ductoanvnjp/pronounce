@@ -10,7 +10,7 @@ export default class ECELL extends Component {
         mVoice1.voice=speechSynthesis.getVoices().filter(function(voice){
             return voice.name === "Google UK English Male"
         })[0];
-        mVoice1.rate = 0.3
+        mVoice1.rate = 0.6
         mVoice1.text=this.props.CellData;
         speechSynthesis.speak(mVoice1)
   }
@@ -19,7 +19,7 @@ export default class ECELL extends Component {
       fVoice2.voice=speechSynthesis.getVoices().filter(function(voice){
           return voice.name === "Google UK English Female"
       })[0];
-      fVoice2.rate = 0.6
+      fVoice2.rate = 0.8
       fVoice2.text=this.props.CellData;
       speechSynthesis.speak(fVoice2)
   }
