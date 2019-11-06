@@ -1,6 +1,6 @@
 {
-  "main.js": "/pronounce/static/js/main.e93767dd.chunk.js",
-  "main.js.map": "/pronounce/static/js/main.e93767dd.chunk.js.map",
+  "main.js": "/pronounce/static/js/main.08fbe4cd.chunk.js",
+  "main.js.map": "/pronounce/static/js/main.08fbe4cd.chunk.js.map",
   "static/css/1.9d82ed0a.chunk.css": "/pronounce/static/css/1.9d82ed0a.chunk.css",
   "static/js/1.841cf699.chunk.js": "/pronounce/static/js/1.841cf699.chunk.js",
   "static/js/1.841cf699.chunk.js.map": "/pronounce/static/js/1.841cf699.chunk.js.map",
@@ -8,6 +8,6 @@
   "runtime~main.js.map": "/pronounce/static/js/runtime~main.8439b8a9.js.map",
   "static/css/1.9d82ed0a.chunk.css.map": "/pronounce/static/css/1.9d82ed0a.chunk.css.map",
   "index.html": "/pronounce/index.html",
-  "precache-manifest.6b9493cd473400c1068c78a01881fc57.js": "/pronounce/precache-manifest.6b9493cd473400c1068c78a01881fc57.js",
+  "precache-manifest.e536de36b69b473f921ddc57498b4d36.js": "/pronounce/precache-manifest.e536de36b69b473f921ddc57498b4d36.js",
   "service-worker.js": "/pronounce/service-worker.js"
 }
